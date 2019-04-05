@@ -1,0 +1,111 @@
+十二月 27, 2018 12:45:21 上午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 0
+十二月 27, 2018 12:45:21 上午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 18245
+十二月 27, 2018 12:46:43 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 12:46:43 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "manager"
+十二月 27, 2018 12:46:44 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "root"
+十二月 27, 2018 1:57:27 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 1:57:28 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "manager"
+十二月 27, 2018 1:57:29 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "root"
+十二月 27, 2018 2:40:51 上午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 27, 2018 4:36:30 上午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 27, 2018 5:58:46 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+十二月 27, 2018 5:58:46 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+十二月 27, 2018 5:58:47 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+十二月 27, 2018 5:58:47 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+十二月 27, 2018 5:58:47 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 10:39:59 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user ""
+十二月 27, 2018 10:40:00 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 10:40:00 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 10:40:00 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 10:40:00 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 10:40:00 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 1:44:58 下午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 27, 2018 2:01:33 下午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 27, 2018 4:43:18 下午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 27, 2018 8:47:24 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 8:47:24 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 8:47:25 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+十二月 27, 2018 8:47:25 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"

@@ -1,0 +1,323 @@
+三月 07, 2019 12:24:22 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+三月 07, 2019 12:36:17 上午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 768
+三月 07, 2019 1:08:06 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "coyote"
+三月 07, 2019 1:34:08 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "manager"
+三月 07, 2019 2:22:12 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "administrator"
+三月 07, 2019 2:47:46 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "root"
+三月 07, 2019 3:21:39 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "root"
+三月 07, 2019 3:59:02 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "root"
+三月 07, 2019 4:55:16 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "role1"
+三月 07, 2019 5:46:07 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "both"
+三月 07, 2019 6:33:04 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+三月 07, 2019 6:57:05 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "root"
+三月 07, 2019 8:15:41 上午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/upLoad]
+三月 07, 2019 8:15:41 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /usr/local/apache-tomcat-7.0.75/webapps/upLoad20190307
+三月 07, 2019 8:15:41 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /usr/local/apache-tomcat-7.0.75/webapps/upLoad20190307 has finished in 20 ms
+三月 07, 2019 8:16:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /usr/local/apache-tomcat-7.0.75/webapps/upLoad
+三月 07, 2019 8:16:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /usr/local/apache-tomcat-7.0.75/webapps/upLoad has finished in 19 ms
+三月 07, 2019 8:18:42 上午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/gdjk]
+三月 07, 2019 8:18:42 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [/gdjk] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+三月 07, 2019 8:18:42 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+三月 07, 2019 8:18:42 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0] but has failed to stop it. This is very likely to create a memory leak.
+三月 07, 2019 8:18:42 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1] but has failed to stop it. This is very likely to create a memory leak.
+三月 07, 2019 8:18:42 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2] but has failed to stop it. This is very likely to create a memory leak.
+三月 07, 2019 8:18:42 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /usr/local/apache-tomcat-7.0.75/webapps/gdjk.war
+三月 07, 2019 8:18:42 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/usr/local/apache-tomcat-7.0.75/webapps/gdjk/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+三月 07, 2019 8:18:44 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://www.springframework.org/tags is already defined
+三月 07, 2019 8:18:44 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+三月 07, 2019 8:18:44 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+三月 07, 2019 8:18:46 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /usr/local/apache-tomcat-7.0.75/webapps/gdjk.war has finished in 4,505 ms
+三月 07, 2019 8:19:00 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:01 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:02 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:03 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:04 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:05 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:06 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:07 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:08 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:09 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:10 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:11 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:12 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:13 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:14 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:15 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:16 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:18 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:19 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:20 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:21 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:22 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:23 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:24 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:25 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:26 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:27 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:28 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:29 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:30 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:30 上午 org.apache.catalina.loader.WebappClassLoaderBase loadClass
+信息: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.ThrowableInformation.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1777)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:154)
+	at org.apache.log4j.Category.forcedLog(Category.java:388)
+	at org.apache.log4j.Category.log(Category.java:853)
+	at com.mchange.v2.log.log4j.Log4jMLog$Log4jMLogger.log(Log4jMLog.java:159)
+	at com.mchange.v2.log.log4j.Log4jMLog$Log4jMLogger.log(Log4jMLog.java:171)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1841)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+三月 07, 2019 8:19:30 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:31 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:32 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:33 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:34 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:35 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:36 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:37 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:38 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:39 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:40 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:41 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:42 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:43 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:44 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:45 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:47 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:48 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:49 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:50 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:51 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:52 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:53 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:54 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:55 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:56 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:57 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:58 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:19:59 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:00 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:00 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:01 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:02 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:03 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:04 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:05 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:06 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:07 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:08 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:09 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:10 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:11 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:12 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:13 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:14 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:15 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:16 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:18 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:19 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:20 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:21 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:22 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:23 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:24 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:25 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:26 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:27 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:28 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:29 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:30 上午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load oracle/sql/converter_xcharset/lx20354.glb.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+三月 07, 2019 8:20:42 上午 org.apache.catalina.loader.WebappClassLoaderBase loadClass
+信息: Illegal access: this web application instance has been stopped already.  Could not load com.mchange.v2.io.IndentedWriter.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1777)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner.getMultiLineStatusString(ThreadPoolAsynchronousRunner.java:281)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner.access$100(ThreadPoolAsynchronousRunner.java:36)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector.run(ThreadPoolAsynchronousRunner.java:616)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+三月 07, 2019 5:11:52 下午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 18245
+三月 07, 2019 5:12:15 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "manager"
+三月 07, 2019 5:12:18 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+三月 07, 2019 5:12:19 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+三月 07, 2019 5:12:20 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+三月 07, 2019 5:12:21 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+三月 07, 2019 5:12:22 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+三月 07, 2019 5:12:22 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+三月 07, 2019 5:12:23 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+三月 07, 2019 5:12:23 下午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "admin"
+三月 07, 2019 9:47:30 下午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 07, 2019 10:31:46 下午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 07, 2019 11:56:13 下午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 5635
+三月 07, 2019 11:56:31 下午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

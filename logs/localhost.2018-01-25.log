@@ -1,0 +1,246 @@
+一月 25, 2018 11:27:18 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:27:18 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:27:33 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:27:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:27:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:27:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5dce6375')
+一月 25, 2018 11:29:20 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:29:20 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:29:24 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:29:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:29:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:29:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4b9b1d12')
+一月 25, 2018 11:29:43 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:29:43 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:29:50 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:29:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:29:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:29:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@321cf419')
+一月 25, 2018 11:30:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:30:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:30:31 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:30:31 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:30:31 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:30:31 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@71ba2933')
+一月 25, 2018 11:32:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:32:35 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:32:39 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:32:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:32:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:32:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@40d95955')
+一月 25, 2018 11:33:52 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:33:52 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:34:03 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2b89ca47')
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:34:04 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+一月 25, 2018 11:34:37 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:34:37 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:34:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:34:42 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:34:42 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:34:42 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@c19900e')
+一月 25, 2018 11:35:36 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:35:36 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:35:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:35:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:35:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:35:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@57e73448')
+一月 25, 2018 11:37:29 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:37:29 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:37:33 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:37:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:37:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:37:34 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@16b4f6b1')
+一月 25, 2018 11:38:45 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:38:45 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:38:53 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:38:53 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:38:53 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:38:53 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@11aa3bcc')
+一月 25, 2018 11:39:08 上午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 11:39:08 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 11:39:13 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 11:39:13 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 11:39:13 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 11:39:13 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@465164bd')
+一月 25, 2018 12:24:31 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 12:24:32 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 12:24:37 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 12:24:37 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 12:24:37 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 12:24:37 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@c331417')
+一月 25, 2018 12:25:07 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 12:25:07 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 12:25:22 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 12:25:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 12:25:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 12:25:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4d0e0074')
+一月 25, 2018 12:27:41 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 12:27:41 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 12:27:46 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 12:27:47 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 12:27:47 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 12:27:47 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@35562d0')
+一月 25, 2018 12:28:20 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 12:28:20 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 12:28:25 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 12:28:25 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 12:28:25 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 12:28:25 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@10b9571d')
+一月 25, 2018 2:25:42 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 2:25:42 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 2:25:46 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 2:26:32 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 2:26:32 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 2:26:37 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 2:26:38 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 2:26:38 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 2:26:38 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7d99dcc6')
+一月 25, 2018 4:16:14 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 4:16:14 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 4:16:18 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2a798f1e')
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 4:16:19 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+一月 25, 2018 4:17:17 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 25, 2018 4:17:17 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+一月 25, 2018 4:17:22 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 4:17:22 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+一月 25, 2018 4:17:22 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+一月 25, 2018 4:17:22 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@11f8efd4')
+一月 25, 2018 4:17:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+一月 25, 2018 4:17:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+一月 25, 2018 4:17:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'spring-mvc'
+一月 25, 2018 4:17:23 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

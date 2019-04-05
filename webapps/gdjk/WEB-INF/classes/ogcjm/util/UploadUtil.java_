@@ -1,0 +1,174 @@
+﻿
+package ogcjm.util;
+
+import java.io.File;
+import java.net.URLDecoder;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.commons.fileupload.FileItem;
+import org.apache.commons.fileupload.disk.DiskFileItemFactory;
+import org.apache.commons.fileupload.servlet.ServletFileUpload;
+
+public class UploadUtil {
+
+	public static Map uploadFile(HttpServletRequest request, String uploadPath,String filesite, String tempPath, int sizeThreshold) {
+		// TODO Auto-generated method stub
+		Map<String, String> hashMap = new HashMap<String, String>();
+		try{
+			uploadPath = URLDecoder.decode(uploadPath, "utf-8");
+			tempPath = URLDecoder.decode(tempPath, "utf-8");
+			if(sizeThreshold<0){
+				sizeThreshold = 4096;
+			}
+			DiskFileItemFactory factory = new DiskFileItemFactory();//
+			factory.setSizeThreshold(sizeThreshold); // 设置缓冲区大小，这里是4kb
+			File tempPathFile = new File(tempPath);
+			if (!tempPathFile.exists()) {
+		        tempPathFile.mkdirs();
+		    }
+			File file = new File(tempPath);
+			if (!file.exists()) {
+				file.mkdirs();
+		    }
+	        factory.setRepository(tempPathFile);// 设置缓冲区目录
+	        ServletFileUpload upload = new ServletFileUpload(factory);
+	        upload.setSizeMax(4194304); // 设置最大文件尺寸，这里是4MB
+	        List items = upload.parseRequest(request);// 得到所有的文件
+	        Iterator i = items.iterator();
+	        while(i.hasNext()){
+	        	FileItem item = (FileItem) i.next();
+	        	if(!item.isFormField()){
+	        		String fileName = item.getName();
+	        		if(StringUtil.checkStr(fileName)){
+	        			//File fullFile = new File(fileName);
+	        			//获取文件扩展名
+	        			String fileExtendName = FileUtil.getFileExtendName(fileName.trim());
+	        			fileName = FileUtil.getFileName(fileExtendName);
+	        			hashMap.put("filename", fileName);
+	        			File savedFile = new File(uploadPath, fileName);
+	        			item.write(savedFile);
+	        		}
+	        	}
+	        }
+	        hashMap.put("filesite", filesite);
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		return hashMap;
+	}
+
+	public static Map uploadFile(List items, String uploadPath,String filesite, String tempPath, int sizeThreshold) {
+		// TODO Auto-generated method stub
+		Map<String, String> hashMap = new HashMap<String, String>();
+		try{
+			uploadPath = URLDecoder.decode(uploadPath, "utf-8");
+			tempPath = URLDecoder.decode(tempPath, "utf-8");
+			if(sizeThreshold<0){
+				sizeThreshold = 4096;
+			}
+			DiskFileItemFactory factory = new DiskFileItemFactory();//
+			factory.setSizeThreshold(sizeThreshold); // 设置缓冲区大小，这里是4kb
+			File tempPathFile = new File(tempPath);
+			if (!tempPathFile.exists()) {
+		        tempPathFile.mkdirs();
+		    }
+			File file = new File(uploadPath);
+			if (!file.exists()) {
+				file.mkdirs();
+		    }
+	        factory.setRepository(tempPathFile);// 设置缓冲区目录
+	        ServletFileUpload upload = new ServletFileUpload(factory);
+	        upload.setSizeMax(4194304); // 设置最大文件尺寸，这里是4MB
+	        Iterator i = items.iterator();
+	        while(i.hasNext()){
+	        	FileItem item = (FileItem) i.next();
+	        	if(!item.isFormField()){
+	        		String fileName = item.getName();
+	        		if(StringUtil.checkStr(fileName)){
+	        			//获取文件扩展名
+	        			String fileExtendName = FileUtil.getFileExtendName(fileName.trim());
+	        			fileName = FileUtil.getFileName(fileExtendName);
+	        			hashMap.put("filename", fileName);
+	        			File savedFile = new File(uploadPath, fileName);
+	        			item.write(savedFile);
+	        		}
+	        	}
+	        }
+	        hashMap.put("filesite", filesite.substring(1));
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		return hashMap;
+	}
+
+	/** 
+	 * @方法名称: uploadFileList 
+	 * @职责说明: 完成TODO
+	 * @参数: @param items
+	 * @参数: @param uploadPath
+	 * @参数: @param string
+	 * @参数: @param tempPath
+	 * @参数: @param sizeThreshold
+	 * @参数: @return    
+	 * @返回: List   
+	 * @创建者: Lilc 
+	 * @创建时间: 2013-4-25 下午11:37:53 
+	 */ 
+	public static List uploadFileList(List items, String uploadPath, String filesite, String tempPath, int sizeThreshold) {
+		List<Map<String, String>> list = new ArrayList<Map<String, String>>();
+		try{
+			uploadPath = URLDecoder.decode(uploadPath, "utf-8");
+			tempPath = URLDecoder.decode(tempPath, "utf-8");
+			if(sizeThreshold<0){
+				sizeThreshold = 4096;
+			}
+			DiskFileItemFactory factory = new DiskFileItemFactory();//
+			factory.setSizeThreshold(sizeThreshold); // 设置缓冲区大小，这里是4kb
+			File tempPathFile = new File(tempPath);
+			if (!tempPathFile.exists()) {
+		        tempPathFile.mkdirs();
+		    }
+			File file = new File(uploadPath);
+			if (!file.exists()) {
+				file.mkdirs();
+		    }
+	        factory.setRepository(tempPathFile);// 设置缓冲区目录
+	        ServletFileUpload upload = new ServletFileUpload(factory);
+	        upload.setSizeMax(4194304*1024); // 设置最大文件尺寸，这里是4MB
+	        Iterator i = items.iterator();
+	        while(i.hasNext()){
+	        	FileItem item = (FileItem) i.next();
+	        	if(!item.isFormField()){
+	        		String fileName = item.getName();
+	        		if(StringUtil.checkStr(fileName)){
+	        			Map<String, String> hashMap = new HashMap<String, String>();
+	        			//获取文件扩展名
+	        		//	hashMap.put("filesize", String.valueOf(Arith.div(Double.parseDouble(String.valueOf(item.getSize())), 1024, 2))+"KB");
+	        			String fileExtendName = FileUtil.getFileExtendName(fileName.trim());
+	        			if(!StringUtil.checkStr(fileExtendName)||"(null)".equalsIgnoreCase(fileExtendName)){
+	        				continue;
+	        			}
+	        			hashMap.put("fileext", fileExtendName);
+	        			fileName = FileUtil.getFileName(fileExtendName);
+	        			hashMap.put("filename", fileName);
+	        			File savedFile = new File(uploadPath, fileName);
+	        			item.write(savedFile);
+	        			hashMap.put("filesite", filesite.substring(1));
+	        			list.add(hashMap);
+	        		}
+	        	}
+	        }
+	       
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		return list;
+	}
+
+}

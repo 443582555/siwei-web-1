@@ -1,0 +1,45 @@
+一月 27, 2019 8:39:46 上午 org.apache.coyote.http11.AbstractHttp11Processor process
+信息: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:136)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+一月 27, 2019 4:17:15 下午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 18245
+一月 27, 2019 4:17:15 下午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 5635
+一月 27, 2019 4:32:22 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/upLoad]
+一月 27, 2019 4:32:32 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /usr/local/apache-tomcat-7.0.75/webapps/upLoad
+一月 27, 2019 4:32:32 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /usr/local/apache-tomcat-7.0.75/webapps/upLoad has finished in 25 ms
+一月 27, 2019 4:33:42 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/gdjk]
+一月 27, 2019 4:33:42 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [/gdjk] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+一月 27, 2019 4:33:42 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0] but has failed to stop it. This is very likely to create a memory leak.
+一月 27, 2019 4:33:42 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1] but has failed to stop it. This is very likely to create a memory leak.
+一月 27, 2019 4:33:42 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/gdjk] appears to have started a thread named [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2] but has failed to stop it. This is very likely to create a memory leak.
+一月 27, 2019 4:33:42 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /usr/local/apache-tomcat-7.0.75/webapps/gdjk.war
+一月 27, 2019 4:33:43 下午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/usr/local/apache-tomcat-7.0.75/webapps/gdjk/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+一月 27, 2019 4:33:44 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://www.springframework.org/tags is already defined
+一月 27, 2019 4:33:44 下午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+一月 27, 2019 4:33:44 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 27, 2019 4:33:46 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /usr/local/apache-tomcat-7.0.75/webapps/gdjk.war has finished in 4,568 ms

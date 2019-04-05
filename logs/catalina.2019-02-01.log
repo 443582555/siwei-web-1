@@ -1,0 +1,4 @@
+二月 01, 2019 7:06:48 上午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 0
+二月 01, 2019 7:06:48 上午 org.apache.coyote.ajp.AjpMessage processHeader
+严重: Invalid message received with signature 18245
